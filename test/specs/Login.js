@@ -36,7 +36,7 @@ describe('Rider Login', () => {
 
         await location_permission.click()
 
-        await await $('//android.widget.ImageButton[@content-desc="Back"]').click()
+         await $('//android.widget.ImageButton[@content-desc="Back"]').click()
 
         const location_on = await $('//android.widget.Button[@resource-id="android:id/button1"]')
 
